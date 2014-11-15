@@ -1,0 +1,56 @@
+.fullscreen {
+	width: 100%;
+}
+.hexagon{
+
+}
+h1 {
+	font-size: 8em;
+	font-family: 'Lobster', cursive;
+	line-height: 1;
+}
+body {background-color: rgb(500,500,500)}
+
+.panel {
+	font-size: 5em;
+	font-family: georgia, serif;
+	font-style: italic;
+}
+
+@media only screen and (max-width: 40em) {
+	body { background-color: rgb(500,500,500);}
+
+.calloutpanel {
+	font-size: 5em;
+	font-family: georgia, serif;
+	font-style: italic;
+}
+.fa-coffee {
+	font-size: 2em;
+}
+.hexagon {
+  position: relative;
+  width: 300px; 
+  height: 173.21px;
+  margin: 86.60px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 86.60px;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px;
+}
